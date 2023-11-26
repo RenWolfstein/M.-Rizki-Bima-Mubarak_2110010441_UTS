@@ -35,7 +35,7 @@ public class CatatanHarian extends javax.swing.JFrame {
         tblData.setModel(model); //mengubah tblData model menjadi model(DefaultTableModel)
         this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("icon.jpg")));
         //Koding untuk menggunakan custom icon
-        this.setTitle("Aplikasi Perhitungan Hari"); // title aplikasi
+        this.setTitle("Aplikasi Catatan Harian"); // title aplikasi
         
         //koding untung path file yang akan diload antara csv atau txt format
         String filePath = "C:\\Users\\USER\\Documents\\Dokumen - Kuliah\\Semester 5\\PBO 2\\CatatanHarian\\DataTabel.csv"; 
